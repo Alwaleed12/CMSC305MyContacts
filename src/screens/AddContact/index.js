@@ -19,7 +19,7 @@ const AddContact = props => {
             return;
         }
         if (!phone){
-            alert('Please enter a Phone Number.');
+            alert('Please enter a contact phone in format NPA-NXX-XXXX format.');
             return;
         }
         if (!email){
@@ -34,7 +34,6 @@ const AddContact = props => {
         }
 
         alert(fullname + ' Added!');
-        navigation.navigate('Go To Contacts!');
     }
 
   return (

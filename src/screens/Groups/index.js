@@ -68,7 +68,7 @@ const GroupsScreen = props => {
         <View style={styles.bottom}>
             <TouchableOpacity 
                 style={styles.button}
-                onPress={() => console.log('Add Group')}
+                onPress={() => console.log('Group Added!')}
                 >
                 <Text style={styles.buttonText}>Add Group</Text>
             </TouchableOpacity>
